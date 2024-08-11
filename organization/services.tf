@@ -9,8 +9,6 @@ resource "aws_guardduty_organization_admin_account" "aws_guardduty_organization_
   ]
 }
 
-
-
 resource "aws_macie2_organization_admin_account" "aws_macie2_organization_admin_account" {
   admin_account_id = module.organization_structure.security_account
 
